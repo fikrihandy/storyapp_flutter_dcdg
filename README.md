@@ -1,16 +1,47 @@
-# declarative_navigation
+# 📸 Story App (Flutter)
 
-A new Flutter project.
+A Flutter-based mobile application that allows users to share and explore stories with images. This app integrates user authentication, RESTful API interaction, and advanced declarative navigation.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+### 🔐 Authentication
+- Login and Register screens with secure password input (obscured characters).
+- Session and token are saved using Shared Preferences.
+- Redirects users based on session status:
+  - Logged-in users go directly to the main page.
+  - Unauthenticated users are redirected to the login screen.
+- Logout functionality to clear session and token data.
 
-A few resources to get you started if this is your first Flutter project:
+### 📰 Story Page
+- Displays a list of stories from the API.
+- Shows user name and photo for each story.
+- Tap on a story to see its details including:
+  - User name
+  - Image
+  - Description
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ➕ Add Story
+- Allows users to upload a new story.
+- Upload includes an image and a short description.
+- Sends story data to the API.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🧭 Advanced Navigation
+- Uses declarative navigation for clean and scalable route management.
+
+---
+
+## 🛠 Tech Stack
+- Flutter & Dart
+- RESTful API integration
+- Provider (for state management)
+- Shared Preferences (for session management)
+- Declarative Navigation 2.0
+
+---
+
+## 📷 Screenshots
+
+![Story App Screenshot](https://raw.githubusercontent.com/fikrihandy/fikrihandy.github.io/refs/heads/abdullah-web/assets/img/portfolio/story-app-flutter.png)
+
+
+---
